@@ -36,7 +36,12 @@ class nist_line:
 		self.ll = _ll
 		self.lu = _lu
 
-
+class ions:
+	'''This is a class for ion info'''
+	def __init__(self, _z, _ion, _threshold):
+		self.z = _z
+		self.ion = _ion
+		self.threshold = _threshold
 
 class line:
 	'''This is a class analogous to line ptr in python'''

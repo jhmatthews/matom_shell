@@ -1224,7 +1224,7 @@ def write_top_macro(topnew, filename, suffix = "Mac", append = False, levmax = 1
 	
 	file_write = open( filename, write_string)
 
-	topnew = sort_class (topnew)
+	#topnew = sort_class (topnew)
 
 	#print len(topnew), len(topnew2), count 
 

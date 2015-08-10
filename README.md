@@ -1,6 +1,17 @@
 # matom_shell
-Macro-atom shell data and relatedscripts
 
+Macro-atom shell data and related scripts
+
+### Folders
+
+* scripts_useful: useful scripts not directly related
+* m-shell: full dataset
+* c-test: Carbon dataset 
+
+
+
+
+## Data Formats
 
 ### LINELIST
 
@@ -57,7 +68,13 @@ energy which flows into each process.
 assumption- all ion has K-shell occupied, so don't worry if upper levels occupied
 
 NRECORDS
-Z ION 
+Z, ION, principal quantum number, l quantum number, E0 (eV), fit coefficients 
+
+Next lines, what to do with jump!
+HOW MANY K VACANCY STATES I COULD JUMP TO (2 TARGET LEVELS)
+NEXT LINES ARE WHICH LEVELS, TO GO TO
+-1 -1 -1 -1 --- KAASTRA AND MAWE -- FOUR NUMBERS SAY SINGLY< DOUBLEY< TRIPLY - EFFECTIVE FLUORESCENCE YIELDS.
+
 
 
 ```
