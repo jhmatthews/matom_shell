@@ -8,8 +8,18 @@ Macro-atom shell data and related scripts
 * m-shell: full dataset
 * c-test: Carbon dataset 
 
+### Usage
 
+mshell_data reads in atomic data from m-shell - the atomic data set from
+Stuart Sim's code, and converts this to python format
 
+Usage:
+```
+	python mshell_data prefix folder
+
+	prefix gives determines the output filenames, e.g. xxxx_lines.py, xxxx_phot.pt
+	folder tells you where the files ATOM.MODELS etc. are stored.
+```
 
 ## Data Formats
 
